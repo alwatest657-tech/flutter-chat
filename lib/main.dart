@@ -11,8 +11,8 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: const String.fromEnvironment('SUPABASE_URL'),
-    publishableKey: const String.fromEnvironment('SUPABASE_PUBLISHABLE_KEY'),
+    url: const String.fromEnvironment('https://oamyfrkxawhqwodnnhkr.supabase.co'),
+    publishableKey: const String.fromEnvironment('sb_publishable__IpYmZH4xu0rl-9ih8M4bw_lO78flFM'),
   );
   runApp(const MyApp());
 }
