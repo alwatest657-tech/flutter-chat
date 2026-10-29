@@ -12,7 +12,7 @@ Future<void> main() async {
 
   await Supabase.initialize(
     url: 'https://oamyfrkxawhqwodnnhkr.supabase.co',
-    publishableKey: const String.fromEnvironment('sb_publishable__IpYmZH4xu0rl-9ih8M4bw_lO78flFM'),
+    anonKey: 'sb_publishable__IpYmZH4xu0rl-9ih8M4bw_lO78flFM',
   );
   runApp(const MyApp());
 }
